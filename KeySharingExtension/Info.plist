@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>NSExtension</key>
+	<dict>
+		<key>NSExtensionFileProviderDocumentGroup</key>
+		<string>group.red.hound.SampleKeyProvider2025</string>
+		<key>NSExtensionFileProviderSupportsEnumeration</key>
+		<true/>
+		<key>NSExtensionPointIdentifier</key>
+		<string>com.apple.fileprovider-nonui</string>
+		<key>NSExtensionPrincipalClass</key>
+		<string>$(PRODUCT_MODULE_NAME).FileProviderExtension</string>
+	</dict>
+	<key>UTExportedTypeDeclarations</key>
+	<array>
+		<dict>
+			<key>UTTypeIdentifier</key>
+			<string>purebred2025.rsa.pkcs-12</string>
+			<key>UTTypeConformsTo</key>
+			<array>
+				<string>com.rsa.pkcs-12</string>
+			</array>
+			<key>UTTypeDescription</key>
+			<string>X.509 Certificate</string>
+		</dict>
+		<dict>
+			<key>UTTypeIdentifier</key>
+			<string>purebred2025.select.all</string>
+			<key>UTTypeConformsTo</key>
+			<array>
+				<string>public.folder</string>
+			</array>
+			<key>UTTypeDescription</key>
+			<string>X.509 Certificate</string>
+		</dict>
+		<dict>
+			<key>UTTypeIdentifier</key>
+			<string>purebred2025.select.all-p12</string>
+			<key>UTTypeConformsTo</key>
+			<array>
+				<string>com.rsa.pkcs-12</string>
+			</array>
+			<key>UTTypeDescription</key>
+			<string>X.509 Certificate</string>
+		</dict>
+		<dict>
+			<key>UTTypeIdentifier</key>
+			<string>purebred2025.select.all-user</string>
+			<key>UTTypeConformsTo</key>
+			<array>
+				<string>public.folder</string>
+			</array>
+			<key>UTTypeDescription</key>
+			<string>X.509 Certificate for User</string>
+		</dict>
+		<dict>
+			<key>UTTypeIdentifier</key>
+			<string>purebred2025.select.all-user-p12</string>
+			<key>UTTypeConformsTo</key>
+			<array>
+				<string>com.rsa.pkcs-12</string>
+			</array>
+			<key>UTTypeDescription</key>
+			<string>X.509 Certificate for User</string>
+		</dict>
+		<dict>
+			<key>UTTypeIdentifier</key>
+			<string>purebred2025.zip.no-filter</string>
+			<key>UTTypeConformsTo</key>
+			<array>
+				<string>public.zip-archive</string>
+			</array>
+			<key>UTTypeDescription</key>
+			<string>Archive of X.509 Certificates</string>
+		</dict>
+		<dict>
+			<key>UTTypeIdentifier</key>
+			<string>purebred2025.select.signature</string>
+			<key>UTTypeConformsTo</key>
+			<array>
+				<string>public.folder</string>
+			</array>
+			<key>UTTypeDescription</key>
+			<string>X.509 Signature Certificate</string>
+		</dict>
+		<dict>
+			<key>UTTypeIdentifier</key>
+			<string>purebred2025.select.signature-p12</string>
+			<key>UTTypeConformsTo</key>
+			<array>
+				<string>com.rsa.pkcs-12</string>
+			</array>
+			<key>UTTypeDescription</key>
+			<string>X.509 Signature Certificate</string>
+		</dict>
+		<dict>
+			<key>UTTypeIdentifier</key>
+			<string>purebred2025.select.no-filter</string>
+			<key>UTTypeConformsTo</key>
+			<array>
+				<string>public.folder</string>
+			</array>
+			<key>UTTypeDescription</key>
+			<string>X.509 Certificate</string>
+		</dict>
+		<dict>
+			<key>UTTypeIdentifier</key>
+			<string>purebred2025.select.no-filter-p12</string>
+			<key>UTTypeConformsTo</key>
+			<array>
+				<string>com.rsa.pkcs-12</string>
+			</array>
+			<key>UTTypeDescription</key>
+			<string>X.509 Certificate</string>
+		</dict>
+		<dict>
+			<key>UTTypeIdentifier</key>
+			<string>purebred2025.select.encryption</string>
+			<key>UTTypeConformsTo</key>
+			<array>
+				<string>public.folder</string>
+			</array>
+			<key>UTTypeDescription</key>
+			<string>X.509 Encryption Certificate</string>
+		</dict>
+		<dict>
+			<key>UTTypeIdentifier</key>
+			<string>purebred2025.select.encryption-p12</string>
+			<key>UTTypeConformsTo</key>
+			<array>
+				<string>com.rsa.pkcs-12</string>
+			</array>
+			<key>UTTypeDescription</key>
+			<string>X.509 Encryption Certificate</string>
+		</dict>
+		<dict>
+			<key>UTTypeIdentifier</key>
+			<string>purebred2025.select.authentication</string>
+			<key>UTTypeConformsTo</key>
+			<array>
+				<string>public.folder</string>
+			</array>
+			<key>UTTypeDescription</key>
+			<string>X.509 PIV Certificate</string>
+		</dict>
+		<dict>
+			<key>UTTypeIdentifier</key>
+			<string>purebred2025.select.authentication-p12</string>
+			<key>UTTypeConformsTo</key>
+			<array>
+				<string>com.rsa.pkcs-12</string>
+			</array>
+			<key>UTTypeDescription</key>
+			<string>X.509 PIV Certificate</string>
+		</dict>
+		<dict>
+			<key>UTTypeIdentifier</key>
+			<string>purebred2025.select.device</string>
+			<key>UTTypeConformsTo</key>
+			<array>
+				<string>public.folder</string>
+			</array>
+			<key>UTTypeDescription</key>
+			<string>X.509 Device Certificate</string>
+		</dict>
+		<dict>
+			<key>UTTypeIdentifier</key>
+			<string>purebred2025.select.device-p12</string>
+			<key>UTTypeConformsTo</key>
+			<array>
+				<string>com.rsa.pkcs-12</string>
+			</array>
+			<key>UTTypeDescription</key>
+			<string>X.509 Device Certificate</string>
+		</dict>
+		<dict>
+			<key>UTTypeIdentifier</key>
+			<string>purebred2025.zip.all</string>
+			<key>UTTypeConformsTo</key>
+			<array>
+				<string>public.zip-archive</string>
+			</array>
+			<key>UTTypeDescription</key>
+			<string>Archive of X.509 Certificates</string>
+		</dict>
+		<dict>
+			<key>UTTypeIdentifier</key>
+			<string>purebred2025.zip.all-user</string>
+			<key>UTTypeConformsTo</key>
+			<array>
+				<string>public.zip-archive</string>
+			</array>
+			<key>UTTypeDescription</key>
+			<string>Archive of X.509 User Certificates</string>
+		</dict>
+		<dict>
+			<key>UTTypeIdentifier</key>
+			<string>purebred2025.zip.signature</string>
+			<key>UTTypeConformsTo</key>
+			<array>
+				<string>public.zip-archive</string>
+			</array>
+			<key>UTTypeDescription</key>
+			<string>Archive of X.509 Signature Certificates</string>
+		</dict>
+		<dict>
+			<key>UTTypeIdentifier</key>
+			<string>purebred2025.zip.encryption</string>
+			<key>UTTypeConformsTo</key>
+			<array>
+				<string>public.zip-archive</string>
+			</array>
+			<key>UTTypeDescription</key>
+			<string>Archive of X.509 Encryption Certificates</string>
+		</dict>
+		<dict>
+			<key>UTTypeIdentifier</key>
+			<string>purebred2025.zip.authentication</string>
+			<key>UTTypeConformsTo</key>
+			<array>
+				<string>public.zip-archive</string>
+			</array>
+			<key>UTTypeDescription</key>
+			<string>Archive of X.509 PIV Certificates</string>
+		</dict>
+		<dict>
+			<key>UTTypeIdentifier</key>
+			<string>purebred2025.zip.device</string>
+			<key>UTTypeConformsTo</key>
+			<array>
+				<string>public.zip-archive</string>
+			</array>
+			<key>UTTypeDescription</key>
+			<string>Archive of X.509 Device Certificates</string>
+		</dict>
+	</array>
+</dict>
+</plist>

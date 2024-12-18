@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="23504" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="J6p-g8-CHO">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23506"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Hosting Controller-->
+        <scene sceneID="BOv-kc-Tgz">
+            <objects>
+                <hostingController id="oyB-ry-coK" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qDg-74-3Qg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="794" y="-5"/>
+        </scene>
+        <!--Document Action View Controller-->
+        <scene sceneID="Q8I-MS-tKG">
+            <objects>
+                <viewController id="J6p-g8-CHO" customClass="DocumentActionViewController" customModule="KeySharingExtensionUI" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Vdh-Gp-eV6">
+                        <rect key="frame" x="0.0" y="0.0" width="350" height="521"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3gV-2h-5zD">
+                                <rect key="frame" x="148" y="471" width="54" height="30"/>
+                                <accessibility key="accessibilityConfiguration" identifier="FPUInternalActionCancelButtonIdentifier"/>
+                                <state key="normal" title="Dismiss"/>
+                                <connections>
+                                    <action selector="cancelButtonTapped:" destination="J6p-g8-CHO" eventType="touchUpInside" id="rCq-0k-2gc"/>
+                                </connections>
+                            </button>
+                            <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1tt-J7-Pd0">
+                                <rect key="frame" x="1" y="21" width="350" height="449"/>
+                                <connections>
+                                    <segue destination="oyB-ry-coK" kind="embed" destinationCreationSelector="embedSwiftUi:" id="2gl-tj-lj9"/>
+                                </connections>
+                            </containerView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="zTo-CZ-ppy"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="zTo-CZ-ppy" firstAttribute="bottom" secondItem="3gV-2h-5zD" secondAttribute="bottom" constant="20" id="FPz-JC-wtu"/>
+                            <constraint firstItem="1tt-J7-Pd0" firstAttribute="leading" secondItem="zTo-CZ-ppy" secondAttribute="leading" constant="1" id="QV4-1C-e0f"/>
+                            <constraint firstItem="3gV-2h-5zD" firstAttribute="top" secondItem="1tt-J7-Pd0" secondAttribute="bottom" constant="1" id="lnG-no-9Rr"/>
+                            <constraint firstItem="1tt-J7-Pd0" firstAttribute="top" secondItem="Vdh-Gp-eV6" secondAttribute="topMargin" constant="1" id="mew-kV-Kgh"/>
+                            <constraint firstItem="3gV-2h-5zD" firstAttribute="centerX" secondItem="zTo-CZ-ppy" secondAttribute="centerX" id="pcx-0T-WJc"/>
+                            <constraint firstItem="1tt-J7-Pd0" firstAttribute="trailing" secondItem="zTo-CZ-ppy" secondAttribute="trailing" constant="1" id="tHb-ZY-Fr0"/>
+                        </constraints>
+                    </view>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="350" height="521"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="UoZ-ya-W3e" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="180.80000000000001" y="75.112443778110944"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

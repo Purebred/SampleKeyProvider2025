@@ -1,0 +1,5 @@
+# This was included to prevent swiftformat from removing self in string interpolations
+--disable redundantSelf
+
+--swiftversion 5.10
+

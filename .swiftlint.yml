@@ -1,0 +1,10 @@
+line_length: 200
+
+disabled_rules: 
+  - todo
+
+excluded:
+  - Pods
+  
+opt_in_rules:
+  - force_unwrapping

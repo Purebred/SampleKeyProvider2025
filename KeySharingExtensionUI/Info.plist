@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>NSExtension</key>
+	<dict>
+		<key>NSExtensionFileProviderActions</key>
+		<array>
+			<dict>
+				<key>NSExtensionFileProviderActionIdentifier</key>
+				<string>red.hound.FileProviderUI.CustomAction</string>
+				<key>NSExtensionFileProviderActionName</key>
+				<string>View zip details</string>
+				<key>NSExtensionFileProviderActionActivationRule</key>
+				<string>SUBQUERY (fileproviderItems, $fileproviderItem, $fileproviderItem.contentType.identifier UTI-CONFORMS-TO &quot;public.zip-archive&quot;).@count == 1</string>
+			</dict>
+			<dict>
+				<key>NSExtensionFileProviderActionActivationRule</key>
+				<string>SUBQUERY (fileproviderItems, $fileproviderItem, $fileproviderItem.contentType.identifier UTI-CONFORMS-TO &quot;com.rsa.pkcs-12&quot;).@count == 1</string>
+				<key>NSExtensionFileProviderActionIdentifier</key>
+				<string>red.hound.FileProviderUI.CustomAction</string>
+				<key>NSExtensionFileProviderActionName</key>
+				<string>View certificate details</string>
+			</dict>
+		</array>
+		<key>NSExtensionMainStoryboard</key>
+		<string>MainInterface</string>
+		<key>NSExtensionPointIdentifier</key>
+		<string>com.apple.fileprovider-actionsui</string>
+	</dict>
+</dict>
+</plist>

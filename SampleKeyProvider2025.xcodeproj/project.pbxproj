@@ -1,0 +1,1163 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		500BF6EA2BF999F0259E7E21 /* Pods_SampleKeyProvider2025Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E79393B097DD431104C058F8 /* Pods_SampleKeyProvider2025Tests.framework */; };
+		55E828D72D09FAA1007E03ED /* TESTRECOVERY.5557779001871871_caPIVAuthPlusSCLUserCert2048_20271203000000Z.p12 in Resources */ = {isa = PBXBuildFile; fileRef = 55E828D62D09FAA1007E03ED /* TESTRECOVERY.5557779001871871_caPIVAuthPlusSCLUserCert2048_20271203000000Z.p12 */; };
+		55E828D82D09FAA1007E03ED /* TESTRECOVERY.5557779001871871_caEmailEncrPlusCitizenUserCert2048_20271203000000Z.p12 in Resources */ = {isa = PBXBuildFile; fileRef = 55E828D42D09FAA1007E03ED /* TESTRECOVERY.5557779001871871_caEmailEncrPlusCitizenUserCert2048_20271203000000Z.p12 */; };
+		55E828D92D09FAA1007E03ED /* TESTRECOVERY.5557779001871871_caEmailSignPlusCitizenUserCert2048_20271203000000Z.p12 in Resources */ = {isa = PBXBuildFile; fileRef = 55E828D52D09FAA1007E03ED /* TESTRECOVERY.5557779001871871_caEmailSignPlusCitizenUserCert2048_20271203000000Z.p12 */; };
+		55E8C0D62CE8B700007043A4 /* UniformTypeIdentifiers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55E8C0D52CE8B700007043A4 /* UniformTypeIdentifiers.framework */; };
+		55E8C0EE2CE8B701007043A4 /* KeySharingExtensionUI.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 55E8C0E42CE8B701007043A4 /* KeySharingExtensionUI.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		55E8C0F12CE8B701007043A4 /* KeySharingExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 55E8C0D32CE8B700007043A4 /* KeySharingExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		55E8C10E2CE8B95C007043A4 /* TESTRECOVERY.5557779001871871_caEmailEncrPlusCitizenUserCert2048_20211103000000Z.p12 in Resources */ = {isa = PBXBuildFile; fileRef = 55E8C1062CE8B95C007043A4 /* TESTRECOVERY.5557779001871871_caEmailEncrPlusCitizenUserCert2048_20211103000000Z.p12 */; };
+		55E8C10F2CE8B95C007043A4 /* TESTRECOVERY.5557779001871871_caEmailEncrPlusCitizenUserCert2048_20241203000000Z.p12 in Resources */ = {isa = PBXBuildFile; fileRef = 55E8C1072CE8B95C007043A4 /* TESTRECOVERY.5557779001871871_caEmailEncrPlusCitizenUserCert2048_20241203000000Z.p12 */; };
+		55E8C1102CE8B95C007043A4 /* TESTRECOVERY.5557779001871871_caPIVAuthPlusSCLUserCert2048_20181103000000Z.p12 in Resources */ = {isa = PBXBuildFile; fileRef = 55E8C10B2CE8B95C007043A4 /* TESTRECOVERY.5557779001871871_caPIVAuthPlusSCLUserCert2048_20181103000000Z.p12 */; };
+		55E8C1112CE8B95C007043A4 /* TESTRECOVERY.5557779001871871_caPIVAuthPlusSCLUserCert2048_20241203000000Z.p12 in Resources */ = {isa = PBXBuildFile; fileRef = 55E8C10D2CE8B95C007043A4 /* TESTRECOVERY.5557779001871871_caPIVAuthPlusSCLUserCert2048_20241203000000Z.p12 */; };
+		55E8C1122CE8B95C007043A4 /* TESTRECOVERY.5557779001871871_caEmailSignPlusCitizenUserCert2048_20241203000000Z.p12 in Resources */ = {isa = PBXBuildFile; fileRef = 55E8C10A2CE8B95C007043A4 /* TESTRECOVERY.5557779001871871_caEmailSignPlusCitizenUserCert2048_20241203000000Z.p12 */; };
+		55E8C1132CE8B95C007043A4 /* TESTRECOVERY.5557779001871871_caEmailSignPlusCitizenUserCert2048_20211103000000Z.p12 in Resources */ = {isa = PBXBuildFile; fileRef = 55E8C1092CE8B95C007043A4 /* TESTRECOVERY.5557779001871871_caEmailSignPlusCitizenUserCert2048_20211103000000Z.p12 */; };
+		55E8C1142CE8B95C007043A4 /* TESTRECOVERY.5557779001871871_caEmailSignPlusCitizenUserCert2048_20181103000000Z.p12 in Resources */ = {isa = PBXBuildFile; fileRef = 55E8C1082CE8B95C007043A4 /* TESTRECOVERY.5557779001871871_caEmailSignPlusCitizenUserCert2048_20181103000000Z.p12 */; };
+		55E8C1152CE8B95C007043A4 /* TESTRECOVERY.5557779001871871_caEmailEncrPlusCitizenUserCert2048_20181103000000Z.p12 in Resources */ = {isa = PBXBuildFile; fileRef = 55E8C1052CE8B95C007043A4 /* TESTRECOVERY.5557779001871871_caEmailEncrPlusCitizenUserCert2048_20181103000000Z.p12 */; };
+		55E8C1162CE8B95C007043A4 /* TESTRECOVERY.5557779001871871_caPIVAuthPlusSCLUserCert2048_20211103000000Z.p12 in Resources */ = {isa = PBXBuildFile; fileRef = 55E8C10C2CE8B95C007043A4 /* TESTRECOVERY.5557779001871871_caPIVAuthPlusSCLUserCert2048_20211103000000Z.p12 */; };
+		9913352F8D28057FB886AC9C /* Pods_SampleKeyProvider2025_SampleKeyProvider2025UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D33A1E8028261FF33853130 /* Pods_SampleKeyProvider2025_SampleKeyProvider2025UITests.framework */; };
+		AC9ED0C468A18524655EB2F3 /* Pods_SampleKeyProvider2025_KeySharingExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82BC4D0C9925445E62A402BD /* Pods_SampleKeyProvider2025_KeySharingExtension.framework */; };
+		DE5085F23E544679DADDCCB1 /* Pods_SampleKeyProvider2025.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6214602ABE1E8550D8ABA42 /* Pods_SampleKeyProvider2025.framework */; };
+		E9750A92048121C5B8FA509E /* Pods_SampleKeyProvider2025_KeySharingExtensionUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BA62CF166137541B8E6BFC9 /* Pods_SampleKeyProvider2025_KeySharingExtensionUI.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		55E8C0A42CE8B6A6007043A4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 55E8C08B2CE8B6A4007043A4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55E8C0922CE8B6A4007043A4;
+			remoteInfo = SampleKeyProvider2025;
+		};
+		55E8C0AE2CE8B6A6007043A4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 55E8C08B2CE8B6A4007043A4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55E8C0922CE8B6A4007043A4;
+			remoteInfo = SampleKeyProvider2025;
+		};
+		55E8C0EC2CE8B701007043A4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 55E8C08B2CE8B6A4007043A4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55E8C0E32CE8B701007043A4;
+			remoteInfo = KeySharingExtensionUI;
+		};
+		55E8C0EF2CE8B701007043A4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 55E8C08B2CE8B6A4007043A4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55E8C0D22CE8B700007043A4;
+			remoteInfo = KeySharingExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		55E8C0F22CE8B701007043A4 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				55E8C0EE2CE8B701007043A4 /* KeySharingExtensionUI.appex in Embed Foundation Extensions */,
+				55E8C0F12CE8B701007043A4 /* KeySharingExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		55E828D42D09FAA1007E03ED /* TESTRECOVERY.5557779001871871_caEmailEncrPlusCitizenUserCert2048_20271203000000Z.p12 */ = {isa = PBXFileReference; lastKnownFileType = file; path = TESTRECOVERY.5557779001871871_caEmailEncrPlusCitizenUserCert2048_20271203000000Z.p12; sourceTree = "<group>"; };
+		55E828D52D09FAA1007E03ED /* TESTRECOVERY.5557779001871871_caEmailSignPlusCitizenUserCert2048_20271203000000Z.p12 */ = {isa = PBXFileReference; lastKnownFileType = file; path = TESTRECOVERY.5557779001871871_caEmailSignPlusCitizenUserCert2048_20271203000000Z.p12; sourceTree = "<group>"; };
+		55E828D62D09FAA1007E03ED /* TESTRECOVERY.5557779001871871_caPIVAuthPlusSCLUserCert2048_20271203000000Z.p12 */ = {isa = PBXFileReference; lastKnownFileType = file; path = TESTRECOVERY.5557779001871871_caPIVAuthPlusSCLUserCert2048_20271203000000Z.p12; sourceTree = "<group>"; };
+		55E8C0932CE8B6A4007043A4 /* SampleKeyProvider2025.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleKeyProvider2025.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		55E8C0A32CE8B6A6007043A4 /* SampleKeyProvider2025Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SampleKeyProvider2025Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		55E8C0AD2CE8B6A6007043A4 /* SampleKeyProvider2025UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SampleKeyProvider2025UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		55E8C0D32CE8B700007043A4 /* KeySharingExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = KeySharingExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		55E8C0D52CE8B700007043A4 /* UniformTypeIdentifiers.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UniformTypeIdentifiers.framework; path = System/Library/Frameworks/UniformTypeIdentifiers.framework; sourceTree = SDKROOT; };
+		55E8C0E42CE8B701007043A4 /* KeySharingExtensionUI.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = KeySharingExtensionUI.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		55E8C1052CE8B95C007043A4 /* TESTRECOVERY.5557779001871871_caEmailEncrPlusCitizenUserCert2048_20181103000000Z.p12 */ = {isa = PBXFileReference; lastKnownFileType = file; path = TESTRECOVERY.5557779001871871_caEmailEncrPlusCitizenUserCert2048_20181103000000Z.p12; sourceTree = "<group>"; };
+		55E8C1062CE8B95C007043A4 /* TESTRECOVERY.5557779001871871_caEmailEncrPlusCitizenUserCert2048_20211103000000Z.p12 */ = {isa = PBXFileReference; lastKnownFileType = file; path = TESTRECOVERY.5557779001871871_caEmailEncrPlusCitizenUserCert2048_20211103000000Z.p12; sourceTree = "<group>"; };
+		55E8C1072CE8B95C007043A4 /* TESTRECOVERY.5557779001871871_caEmailEncrPlusCitizenUserCert2048_20241203000000Z.p12 */ = {isa = PBXFileReference; lastKnownFileType = file; path = TESTRECOVERY.5557779001871871_caEmailEncrPlusCitizenUserCert2048_20241203000000Z.p12; sourceTree = "<group>"; };
+		55E8C1082CE8B95C007043A4 /* TESTRECOVERY.5557779001871871_caEmailSignPlusCitizenUserCert2048_20181103000000Z.p12 */ = {isa = PBXFileReference; lastKnownFileType = file; path = TESTRECOVERY.5557779001871871_caEmailSignPlusCitizenUserCert2048_20181103000000Z.p12; sourceTree = "<group>"; };
+		55E8C1092CE8B95C007043A4 /* TESTRECOVERY.5557779001871871_caEmailSignPlusCitizenUserCert2048_20211103000000Z.p12 */ = {isa = PBXFileReference; lastKnownFileType = file; path = TESTRECOVERY.5557779001871871_caEmailSignPlusCitizenUserCert2048_20211103000000Z.p12; sourceTree = "<group>"; };
+		55E8C10A2CE8B95C007043A4 /* TESTRECOVERY.5557779001871871_caEmailSignPlusCitizenUserCert2048_20241203000000Z.p12 */ = {isa = PBXFileReference; lastKnownFileType = file; path = TESTRECOVERY.5557779001871871_caEmailSignPlusCitizenUserCert2048_20241203000000Z.p12; sourceTree = "<group>"; };
+		55E8C10B2CE8B95C007043A4 /* TESTRECOVERY.5557779001871871_caPIVAuthPlusSCLUserCert2048_20181103000000Z.p12 */ = {isa = PBXFileReference; lastKnownFileType = file; path = TESTRECOVERY.5557779001871871_caPIVAuthPlusSCLUserCert2048_20181103000000Z.p12; sourceTree = "<group>"; };
+		55E8C10C2CE8B95C007043A4 /* TESTRECOVERY.5557779001871871_caPIVAuthPlusSCLUserCert2048_20211103000000Z.p12 */ = {isa = PBXFileReference; lastKnownFileType = file; path = TESTRECOVERY.5557779001871871_caPIVAuthPlusSCLUserCert2048_20211103000000Z.p12; sourceTree = "<group>"; };
+		55E8C10D2CE8B95C007043A4 /* TESTRECOVERY.5557779001871871_caPIVAuthPlusSCLUserCert2048_20241203000000Z.p12 */ = {isa = PBXFileReference; lastKnownFileType = file; path = TESTRECOVERY.5557779001871871_caPIVAuthPlusSCLUserCert2048_20241203000000Z.p12; sourceTree = "<group>"; };
+		7689C7AAD881A9F065B89D84 /* Pods-SampleKeyProvider2025-KeySharingExtensionUI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SampleKeyProvider2025-KeySharingExtensionUI.debug.xcconfig"; path = "Target Support Files/Pods-SampleKeyProvider2025-KeySharingExtensionUI/Pods-SampleKeyProvider2025-KeySharingExtensionUI.debug.xcconfig"; sourceTree = "<group>"; };
+		7AB4C71D93F86CEF1430EB7E /* Pods-SampleKeyProvider2025Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SampleKeyProvider2025Tests.debug.xcconfig"; path = "Target Support Files/Pods-SampleKeyProvider2025Tests/Pods-SampleKeyProvider2025Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		7D33A1E8028261FF33853130 /* Pods_SampleKeyProvider2025_SampleKeyProvider2025UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SampleKeyProvider2025_SampleKeyProvider2025UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		82BC4D0C9925445E62A402BD /* Pods_SampleKeyProvider2025_KeySharingExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SampleKeyProvider2025_KeySharingExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BA62CF166137541B8E6BFC9 /* Pods_SampleKeyProvider2025_KeySharingExtensionUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SampleKeyProvider2025_KeySharingExtensionUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D5873B00DD3CB453B99BA33 /* Pods-SampleKeyProvider2025-KeySharingExtensionUI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SampleKeyProvider2025-KeySharingExtensionUI.release.xcconfig"; path = "Target Support Files/Pods-SampleKeyProvider2025-KeySharingExtensionUI/Pods-SampleKeyProvider2025-KeySharingExtensionUI.release.xcconfig"; sourceTree = "<group>"; };
+		8EECB2530B17A0D10D4FC4F2 /* Pods-SampleKeyProvider2025.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SampleKeyProvider2025.release.xcconfig"; path = "Target Support Files/Pods-SampleKeyProvider2025/Pods-SampleKeyProvider2025.release.xcconfig"; sourceTree = "<group>"; };
+		A00B39F487B094F337DC4D60 /* Pods-SampleKeyProvider2025-KeySharingExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SampleKeyProvider2025-KeySharingExtension.release.xcconfig"; path = "Target Support Files/Pods-SampleKeyProvider2025-KeySharingExtension/Pods-SampleKeyProvider2025-KeySharingExtension.release.xcconfig"; sourceTree = "<group>"; };
+		A3C139C539CF192FF1A704D2 /* Pods-SampleKeyProvider2025.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SampleKeyProvider2025.debug.xcconfig"; path = "Target Support Files/Pods-SampleKeyProvider2025/Pods-SampleKeyProvider2025.debug.xcconfig"; sourceTree = "<group>"; };
+		B1DD19F49CE1A8E692207D6A /* Pods-SampleKeyProvider2025Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SampleKeyProvider2025Tests.release.xcconfig"; path = "Target Support Files/Pods-SampleKeyProvider2025Tests/Pods-SampleKeyProvider2025Tests.release.xcconfig"; sourceTree = "<group>"; };
+		C1230F68B02B6D39A00452AE /* Pods-SampleKeyProvider2025-KeySharingExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SampleKeyProvider2025-KeySharingExtension.debug.xcconfig"; path = "Target Support Files/Pods-SampleKeyProvider2025-KeySharingExtension/Pods-SampleKeyProvider2025-KeySharingExtension.debug.xcconfig"; sourceTree = "<group>"; };
+		D6214602ABE1E8550D8ABA42 /* Pods_SampleKeyProvider2025.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SampleKeyProvider2025.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8104FDF22FD0F954B0A38C3 /* Pods-SampleKeyProvider2025-SampleKeyProvider2025UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SampleKeyProvider2025-SampleKeyProvider2025UITests.debug.xcconfig"; path = "Target Support Files/Pods-SampleKeyProvider2025-SampleKeyProvider2025UITests/Pods-SampleKeyProvider2025-SampleKeyProvider2025UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D86CB585C429080ADD7E04A4 /* Pods-SampleKeyProvider2025-SampleKeyProvider2025UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SampleKeyProvider2025-SampleKeyProvider2025UITests.release.xcconfig"; path = "Target Support Files/Pods-SampleKeyProvider2025-SampleKeyProvider2025UITests/Pods-SampleKeyProvider2025-SampleKeyProvider2025UITests.release.xcconfig"; sourceTree = "<group>"; };
+		E79393B097DD431104C058F8 /* Pods_SampleKeyProvider2025Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SampleKeyProvider2025Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		5508BA322D00BFAC00E0728D /* Exceptions for "SampleKeyProvider2025" folder in "SampleKeyProvider2025" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 55E8C0922CE8B6A4007043A4 /* SampleKeyProvider2025 */;
+		};
+		55E8C0F72CE8B701007043A4 /* Exceptions for "KeySharingExtension" folder in "KeySharingExtension" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 55E8C0D22CE8B700007043A4 /* KeySharingExtension */;
+		};
+		55E8C0F92CE8B701007043A4 /* Exceptions for "KeySharingExtensionUI" folder in "KeySharingExtensionUI" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 55E8C0E32CE8B701007043A4 /* KeySharingExtensionUI */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		55E8C0952CE8B6A4007043A4 /* SampleKeyProvider2025 */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				5508BA322D00BFAC00E0728D /* Exceptions for "SampleKeyProvider2025" folder in "SampleKeyProvider2025" target */,
+			);
+			path = SampleKeyProvider2025;
+			sourceTree = "<group>";
+		};
+		55E8C0A62CE8B6A6007043A4 /* SampleKeyProvider2025Tests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = SampleKeyProvider2025Tests;
+			sourceTree = "<group>";
+		};
+		55E8C0B02CE8B6A6007043A4 /* SampleKeyProvider2025UITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = SampleKeyProvider2025UITests;
+			sourceTree = "<group>";
+		};
+		55E8C0D72CE8B700007043A4 /* KeySharingExtension */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				55E8C0F72CE8B701007043A4 /* Exceptions for "KeySharingExtension" folder in "KeySharingExtension" target */,
+			);
+			path = KeySharingExtension;
+			sourceTree = "<group>";
+		};
+		55E8C0E52CE8B701007043A4 /* KeySharingExtensionUI */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				55E8C0F92CE8B701007043A4 /* Exceptions for "KeySharingExtensionUI" folder in "KeySharingExtensionUI" target */,
+			);
+			path = KeySharingExtensionUI;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		55E8C0902CE8B6A4007043A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE5085F23E544679DADDCCB1 /* Pods_SampleKeyProvider2025.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55E8C0A02CE8B6A6007043A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				500BF6EA2BF999F0259E7E21 /* Pods_SampleKeyProvider2025Tests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55E8C0AA2CE8B6A6007043A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9913352F8D28057FB886AC9C /* Pods_SampleKeyProvider2025_SampleKeyProvider2025UITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55E8C0D02CE8B700007043A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55E8C0D62CE8B700007043A4 /* UniformTypeIdentifiers.framework in Frameworks */,
+				AC9ED0C468A18524655EB2F3 /* Pods_SampleKeyProvider2025_KeySharingExtension.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55E8C0E12CE8B701007043A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9750A92048121C5B8FA509E /* Pods_SampleKeyProvider2025_KeySharingExtensionUI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		55E8C08A2CE8B6A4007043A4 = {
+			isa = PBXGroup;
+			children = (
+				55E828D42D09FAA1007E03ED /* TESTRECOVERY.5557779001871871_caEmailEncrPlusCitizenUserCert2048_20271203000000Z.p12 */,
+				55E828D52D09FAA1007E03ED /* TESTRECOVERY.5557779001871871_caEmailSignPlusCitizenUserCert2048_20271203000000Z.p12 */,
+				55E828D62D09FAA1007E03ED /* TESTRECOVERY.5557779001871871_caPIVAuthPlusSCLUserCert2048_20271203000000Z.p12 */,
+				55E8C1052CE8B95C007043A4 /* TESTRECOVERY.5557779001871871_caEmailEncrPlusCitizenUserCert2048_20181103000000Z.p12 */,
+				55E8C1062CE8B95C007043A4 /* TESTRECOVERY.5557779001871871_caEmailEncrPlusCitizenUserCert2048_20211103000000Z.p12 */,
+				55E8C1072CE8B95C007043A4 /* TESTRECOVERY.5557779001871871_caEmailEncrPlusCitizenUserCert2048_20241203000000Z.p12 */,
+				55E8C1082CE8B95C007043A4 /* TESTRECOVERY.5557779001871871_caEmailSignPlusCitizenUserCert2048_20181103000000Z.p12 */,
+				55E8C1092CE8B95C007043A4 /* TESTRECOVERY.5557779001871871_caEmailSignPlusCitizenUserCert2048_20211103000000Z.p12 */,
+				55E8C10A2CE8B95C007043A4 /* TESTRECOVERY.5557779001871871_caEmailSignPlusCitizenUserCert2048_20241203000000Z.p12 */,
+				55E8C10B2CE8B95C007043A4 /* TESTRECOVERY.5557779001871871_caPIVAuthPlusSCLUserCert2048_20181103000000Z.p12 */,
+				55E8C10C2CE8B95C007043A4 /* TESTRECOVERY.5557779001871871_caPIVAuthPlusSCLUserCert2048_20211103000000Z.p12 */,
+				55E8C10D2CE8B95C007043A4 /* TESTRECOVERY.5557779001871871_caPIVAuthPlusSCLUserCert2048_20241203000000Z.p12 */,
+				55E8C0952CE8B6A4007043A4 /* SampleKeyProvider2025 */,
+				55E8C0A62CE8B6A6007043A4 /* SampleKeyProvider2025Tests */,
+				55E8C0B02CE8B6A6007043A4 /* SampleKeyProvider2025UITests */,
+				55E8C0D72CE8B700007043A4 /* KeySharingExtension */,
+				55E8C0E52CE8B701007043A4 /* KeySharingExtensionUI */,
+				55E8C0D42CE8B700007043A4 /* Frameworks */,
+				55E8C0942CE8B6A4007043A4 /* Products */,
+				AD87F07BCB4AF86B51697C15 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		55E8C0942CE8B6A4007043A4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				55E8C0932CE8B6A4007043A4 /* SampleKeyProvider2025.app */,
+				55E8C0A32CE8B6A6007043A4 /* SampleKeyProvider2025Tests.xctest */,
+				55E8C0AD2CE8B6A6007043A4 /* SampleKeyProvider2025UITests.xctest */,
+				55E8C0D32CE8B700007043A4 /* KeySharingExtension.appex */,
+				55E8C0E42CE8B701007043A4 /* KeySharingExtensionUI.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		55E8C0D42CE8B700007043A4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				55E8C0D52CE8B700007043A4 /* UniformTypeIdentifiers.framework */,
+				D6214602ABE1E8550D8ABA42 /* Pods_SampleKeyProvider2025.framework */,
+				82BC4D0C9925445E62A402BD /* Pods_SampleKeyProvider2025_KeySharingExtension.framework */,
+				8BA62CF166137541B8E6BFC9 /* Pods_SampleKeyProvider2025_KeySharingExtensionUI.framework */,
+				7D33A1E8028261FF33853130 /* Pods_SampleKeyProvider2025_SampleKeyProvider2025UITests.framework */,
+				E79393B097DD431104C058F8 /* Pods_SampleKeyProvider2025Tests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AD87F07BCB4AF86B51697C15 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A3C139C539CF192FF1A704D2 /* Pods-SampleKeyProvider2025.debug.xcconfig */,
+				8EECB2530B17A0D10D4FC4F2 /* Pods-SampleKeyProvider2025.release.xcconfig */,
+				C1230F68B02B6D39A00452AE /* Pods-SampleKeyProvider2025-KeySharingExtension.debug.xcconfig */,
+				A00B39F487B094F337DC4D60 /* Pods-SampleKeyProvider2025-KeySharingExtension.release.xcconfig */,
+				7689C7AAD881A9F065B89D84 /* Pods-SampleKeyProvider2025-KeySharingExtensionUI.debug.xcconfig */,
+				8D5873B00DD3CB453B99BA33 /* Pods-SampleKeyProvider2025-KeySharingExtensionUI.release.xcconfig */,
+				D8104FDF22FD0F954B0A38C3 /* Pods-SampleKeyProvider2025-SampleKeyProvider2025UITests.debug.xcconfig */,
+				D86CB585C429080ADD7E04A4 /* Pods-SampleKeyProvider2025-SampleKeyProvider2025UITests.release.xcconfig */,
+				7AB4C71D93F86CEF1430EB7E /* Pods-SampleKeyProvider2025Tests.debug.xcconfig */,
+				B1DD19F49CE1A8E692207D6A /* Pods-SampleKeyProvider2025Tests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		55E8C0922CE8B6A4007043A4 /* SampleKeyProvider2025 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55E8C0B72CE8B6A6007043A4 /* Build configuration list for PBXNativeTarget "SampleKeyProvider2025" */;
+			buildPhases = (
+				F868A357160096E709E66732 /* [CP] Check Pods Manifest.lock */,
+				55E8C08F2CE8B6A4007043A4 /* Sources */,
+				55E8C0902CE8B6A4007043A4 /* Frameworks */,
+				55E8C0912CE8B6A4007043A4 /* Resources */,
+				55E8C0F22CE8B701007043A4 /* Embed Foundation Extensions */,
+				B71C3110D3A793C0BC0AEB1A /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				55E8C0ED2CE8B701007043A4 /* PBXTargetDependency */,
+				55E8C0F02CE8B701007043A4 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				55E8C0952CE8B6A4007043A4 /* SampleKeyProvider2025 */,
+			);
+			name = SampleKeyProvider2025;
+			productName = SampleKeyProvider2025;
+			productReference = 55E8C0932CE8B6A4007043A4 /* SampleKeyProvider2025.app */;
+			productType = "com.apple.product-type.application";
+		};
+		55E8C0A22CE8B6A6007043A4 /* SampleKeyProvider2025Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55E8C0BA2CE8B6A6007043A4 /* Build configuration list for PBXNativeTarget "SampleKeyProvider2025Tests" */;
+			buildPhases = (
+				B1CDBBB585B1992D0DF247C5 /* [CP] Check Pods Manifest.lock */,
+				55E8C09F2CE8B6A6007043A4 /* Sources */,
+				55E8C0A02CE8B6A6007043A4 /* Frameworks */,
+				55E8C0A12CE8B6A6007043A4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				55E8C0A52CE8B6A6007043A4 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				55E8C0A62CE8B6A6007043A4 /* SampleKeyProvider2025Tests */,
+			);
+			name = SampleKeyProvider2025Tests;
+			productName = SampleKeyProvider2025Tests;
+			productReference = 55E8C0A32CE8B6A6007043A4 /* SampleKeyProvider2025Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		55E8C0AC2CE8B6A6007043A4 /* SampleKeyProvider2025UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55E8C0BD2CE8B6A6007043A4 /* Build configuration list for PBXNativeTarget "SampleKeyProvider2025UITests" */;
+			buildPhases = (
+				CFCF42C8EF845B85AC0852B0 /* [CP] Check Pods Manifest.lock */,
+				55E8C0A92CE8B6A6007043A4 /* Sources */,
+				55E8C0AA2CE8B6A6007043A4 /* Frameworks */,
+				55E8C0AB2CE8B6A6007043A4 /* Resources */,
+				5D1D15F4D830A8F610575404 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				55E8C0AF2CE8B6A6007043A4 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				55E8C0B02CE8B6A6007043A4 /* SampleKeyProvider2025UITests */,
+			);
+			name = SampleKeyProvider2025UITests;
+			productName = SampleKeyProvider2025UITests;
+			productReference = 55E8C0AD2CE8B6A6007043A4 /* SampleKeyProvider2025UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		55E8C0D22CE8B700007043A4 /* KeySharingExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55E8C0F82CE8B701007043A4 /* Build configuration list for PBXNativeTarget "KeySharingExtension" */;
+			buildPhases = (
+				9F72EDABFB1B42240AEE1CC4 /* [CP] Check Pods Manifest.lock */,
+				55E8C0CF2CE8B700007043A4 /* Sources */,
+				55E8C0D02CE8B700007043A4 /* Frameworks */,
+				55E8C0D12CE8B700007043A4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				55E8C0D72CE8B700007043A4 /* KeySharingExtension */,
+			);
+			name = KeySharingExtension;
+			productName = KeySharingExtension;
+			productReference = 55E8C0D32CE8B700007043A4 /* KeySharingExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		55E8C0E32CE8B701007043A4 /* KeySharingExtensionUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55E8C0FA2CE8B701007043A4 /* Build configuration list for PBXNativeTarget "KeySharingExtensionUI" */;
+			buildPhases = (
+				2DA6DD722E23A18948B03C27 /* [CP] Check Pods Manifest.lock */,
+				55E8C0E02CE8B701007043A4 /* Sources */,
+				55E8C0E12CE8B701007043A4 /* Frameworks */,
+				55E8C0E22CE8B701007043A4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				55E8C0E52CE8B701007043A4 /* KeySharingExtensionUI */,
+			);
+			name = KeySharingExtensionUI;
+			productName = KeySharingExtensionUI;
+			productReference = 55E8C0E42CE8B701007043A4 /* KeySharingExtensionUI.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		55E8C08B2CE8B6A4007043A4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					55E8C0922CE8B6A4007043A4 = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					55E8C0A22CE8B6A6007043A4 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 55E8C0922CE8B6A4007043A4;
+					};
+					55E8C0AC2CE8B6A6007043A4 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 55E8C0922CE8B6A4007043A4;
+					};
+					55E8C0D22CE8B700007043A4 = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					55E8C0E32CE8B701007043A4 = {
+						CreatedOnToolsVersion = 16.1;
+					};
+				};
+			};
+			buildConfigurationList = 55E8C08E2CE8B6A4007043A4 /* Build configuration list for PBXProject "SampleKeyProvider2025" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 55E8C08A2CE8B6A4007043A4;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 55E8C0942CE8B6A4007043A4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				55E8C0922CE8B6A4007043A4 /* SampleKeyProvider2025 */,
+				55E8C0A22CE8B6A6007043A4 /* SampleKeyProvider2025Tests */,
+				55E8C0AC2CE8B6A6007043A4 /* SampleKeyProvider2025UITests */,
+				55E8C0D22CE8B700007043A4 /* KeySharingExtension */,
+				55E8C0E32CE8B701007043A4 /* KeySharingExtensionUI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		55E8C0912CE8B6A4007043A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55E828D72D09FAA1007E03ED /* TESTRECOVERY.5557779001871871_caPIVAuthPlusSCLUserCert2048_20271203000000Z.p12 in Resources */,
+				55E828D82D09FAA1007E03ED /* TESTRECOVERY.5557779001871871_caEmailEncrPlusCitizenUserCert2048_20271203000000Z.p12 in Resources */,
+				55E828D92D09FAA1007E03ED /* TESTRECOVERY.5557779001871871_caEmailSignPlusCitizenUserCert2048_20271203000000Z.p12 in Resources */,
+				55E8C10E2CE8B95C007043A4 /* TESTRECOVERY.5557779001871871_caEmailEncrPlusCitizenUserCert2048_20211103000000Z.p12 in Resources */,
+				55E8C10F2CE8B95C007043A4 /* TESTRECOVERY.5557779001871871_caEmailEncrPlusCitizenUserCert2048_20241203000000Z.p12 in Resources */,
+				55E8C1102CE8B95C007043A4 /* TESTRECOVERY.5557779001871871_caPIVAuthPlusSCLUserCert2048_20181103000000Z.p12 in Resources */,
+				55E8C1112CE8B95C007043A4 /* TESTRECOVERY.5557779001871871_caPIVAuthPlusSCLUserCert2048_20241203000000Z.p12 in Resources */,
+				55E8C1122CE8B95C007043A4 /* TESTRECOVERY.5557779001871871_caEmailSignPlusCitizenUserCert2048_20241203000000Z.p12 in Resources */,
+				55E8C1132CE8B95C007043A4 /* TESTRECOVERY.5557779001871871_caEmailSignPlusCitizenUserCert2048_20211103000000Z.p12 in Resources */,
+				55E8C1142CE8B95C007043A4 /* TESTRECOVERY.5557779001871871_caEmailSignPlusCitizenUserCert2048_20181103000000Z.p12 in Resources */,
+				55E8C1152CE8B95C007043A4 /* TESTRECOVERY.5557779001871871_caEmailEncrPlusCitizenUserCert2048_20181103000000Z.p12 in Resources */,
+				55E8C1162CE8B95C007043A4 /* TESTRECOVERY.5557779001871871_caPIVAuthPlusSCLUserCert2048_20211103000000Z.p12 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55E8C0A12CE8B6A6007043A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55E8C0AB2CE8B6A6007043A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55E8C0D12CE8B700007043A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55E8C0E22CE8B701007043A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2DA6DD722E23A18948B03C27 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SampleKeyProvider2025-KeySharingExtensionUI-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5D1D15F4D830A8F610575404 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SampleKeyProvider2025-SampleKeyProvider2025UITests/Pods-SampleKeyProvider2025-SampleKeyProvider2025UITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SampleKeyProvider2025-SampleKeyProvider2025UITests/Pods-SampleKeyProvider2025-SampleKeyProvider2025UITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SampleKeyProvider2025-SampleKeyProvider2025UITests/Pods-SampleKeyProvider2025-SampleKeyProvider2025UITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9F72EDABFB1B42240AEE1CC4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SampleKeyProvider2025-KeySharingExtension-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B1CDBBB585B1992D0DF247C5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SampleKeyProvider2025Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B71C3110D3A793C0BC0AEB1A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SampleKeyProvider2025/Pods-SampleKeyProvider2025-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SampleKeyProvider2025/Pods-SampleKeyProvider2025-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SampleKeyProvider2025/Pods-SampleKeyProvider2025-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CFCF42C8EF845B85AC0852B0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SampleKeyProvider2025-SampleKeyProvider2025UITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F868A357160096E709E66732 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SampleKeyProvider2025-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		55E8C08F2CE8B6A4007043A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55E8C09F2CE8B6A6007043A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55E8C0A92CE8B6A6007043A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55E8C0CF2CE8B700007043A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55E8C0E02CE8B701007043A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		55E8C0A52CE8B6A6007043A4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 55E8C0922CE8B6A4007043A4 /* SampleKeyProvider2025 */;
+			targetProxy = 55E8C0A42CE8B6A6007043A4 /* PBXContainerItemProxy */;
+		};
+		55E8C0AF2CE8B6A6007043A4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 55E8C0922CE8B6A4007043A4 /* SampleKeyProvider2025 */;
+			targetProxy = 55E8C0AE2CE8B6A6007043A4 /* PBXContainerItemProxy */;
+		};
+		55E8C0ED2CE8B701007043A4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 55E8C0E32CE8B701007043A4 /* KeySharingExtensionUI */;
+			targetProxy = 55E8C0EC2CE8B701007043A4 /* PBXContainerItemProxy */;
+		};
+		55E8C0F02CE8B701007043A4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 55E8C0D22CE8B700007043A4 /* KeySharingExtension */;
+			targetProxy = 55E8C0EF2CE8B701007043A4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		55E8C0B52CE8B6A6007043A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				_EXPERIMENTAL_SWIFT_EXPLICIT_MODULES = NO;
+			};
+			name = Debug;
+		};
+		55E8C0B62CE8B6A6007043A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+				_EXPERIMENTAL_SWIFT_EXPLICIT_MODULES = NO;
+			};
+			name = Release;
+		};
+		55E8C0B82CE8B6A6007043A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A3C139C539CF192FF1A704D2 /* Pods-SampleKeyProvider2025.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SampleKeyProvider2025/SampleKeyProvider2025.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SampleKeyProvider2025/Preview Content\"";
+				DEVELOPMENT_TEAM = M355KP63QV;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SampleKeyProvider2025/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = red.hound.SampleKeyProvider2025;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "SampleKeyProvider2025/SampleKeyProvider2025-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		55E8C0B92CE8B6A6007043A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8EECB2530B17A0D10D4FC4F2 /* Pods-SampleKeyProvider2025.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SampleKeyProvider2025/SampleKeyProvider2025.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SampleKeyProvider2025/Preview Content\"";
+				DEVELOPMENT_TEAM = M355KP63QV;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SampleKeyProvider2025/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = red.hound.SampleKeyProvider2025;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "SampleKeyProvider2025/SampleKeyProvider2025-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		55E8C0BB2CE8B6A6007043A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7AB4C71D93F86CEF1430EB7E /* Pods-SampleKeyProvider2025Tests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M355KP63QV;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = red.hound.SampleKeyProvider2025Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SampleKeyProvider2025.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SampleKeyProvider2025";
+			};
+			name = Debug;
+		};
+		55E8C0BC2CE8B6A6007043A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B1DD19F49CE1A8E692207D6A /* Pods-SampleKeyProvider2025Tests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M355KP63QV;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = red.hound.SampleKeyProvider2025Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SampleKeyProvider2025.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SampleKeyProvider2025";
+			};
+			name = Release;
+		};
+		55E8C0BE2CE8B6A6007043A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8104FDF22FD0F954B0A38C3 /* Pods-SampleKeyProvider2025-SampleKeyProvider2025UITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M355KP63QV;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = red.hound.SampleKeyProvider2025UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SampleKeyProvider2025;
+			};
+			name = Debug;
+		};
+		55E8C0BF2CE8B6A6007043A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D86CB585C429080ADD7E04A4 /* Pods-SampleKeyProvider2025-SampleKeyProvider2025UITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M355KP63QV;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = red.hound.SampleKeyProvider2025UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SampleKeyProvider2025;
+			};
+			name = Release;
+		};
+		55E8C0F32CE8B701007043A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1230F68B02B6D39A00452AE /* Pods-SampleKeyProvider2025-KeySharingExtension.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = KeySharingExtension/KeySharingExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M355KP63QV;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = KeySharingExtension/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = KeySharingExtension;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = red.hound.SampleKeyProvider2025.KeySharingExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "KeySharingExtension/KeySharingExtension-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		55E8C0F42CE8B701007043A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A00B39F487B094F337DC4D60 /* Pods-SampleKeyProvider2025-KeySharingExtension.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = KeySharingExtension/KeySharingExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M355KP63QV;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = KeySharingExtension/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = KeySharingExtension;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = red.hound.SampleKeyProvider2025.KeySharingExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "KeySharingExtension/KeySharingExtension-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		55E8C0F52CE8B701007043A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7689C7AAD881A9F065B89D84 /* Pods-SampleKeyProvider2025-KeySharingExtensionUI.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = KeySharingExtensionUI/KeySharingExtensionUI.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M355KP63QV;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = KeySharingExtensionUI/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = KeySharingExtensionUI;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = red.hound.SampleKeyProvider2025.KeySharingExtensionUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "KeySharingExtensionUI/KeySharingExtensionUI-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		55E8C0F62CE8B701007043A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D5873B00DD3CB453B99BA33 /* Pods-SampleKeyProvider2025-KeySharingExtensionUI.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = KeySharingExtensionUI/KeySharingExtensionUI.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M355KP63QV;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = KeySharingExtensionUI/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = KeySharingExtensionUI;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = red.hound.SampleKeyProvider2025.KeySharingExtensionUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "KeySharingExtensionUI/KeySharingExtensionUI-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		55E8C08E2CE8B6A4007043A4 /* Build configuration list for PBXProject "SampleKeyProvider2025" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55E8C0B52CE8B6A6007043A4 /* Debug */,
+				55E8C0B62CE8B6A6007043A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55E8C0B72CE8B6A6007043A4 /* Build configuration list for PBXNativeTarget "SampleKeyProvider2025" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55E8C0B82CE8B6A6007043A4 /* Debug */,
+				55E8C0B92CE8B6A6007043A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55E8C0BA2CE8B6A6007043A4 /* Build configuration list for PBXNativeTarget "SampleKeyProvider2025Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55E8C0BB2CE8B6A6007043A4 /* Debug */,
+				55E8C0BC2CE8B6A6007043A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55E8C0BD2CE8B6A6007043A4 /* Build configuration list for PBXNativeTarget "SampleKeyProvider2025UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55E8C0BE2CE8B6A6007043A4 /* Debug */,
+				55E8C0BF2CE8B6A6007043A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55E8C0F82CE8B701007043A4 /* Build configuration list for PBXNativeTarget "KeySharingExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55E8C0F32CE8B701007043A4 /* Debug */,
+				55E8C0F42CE8B701007043A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55E8C0FA2CE8B701007043A4 /* Build configuration list for PBXNativeTarget "KeySharingExtensionUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55E8C0F52CE8B701007043A4 /* Debug */,
+				55E8C0F62CE8B701007043A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 55E8C08B2CE8B6A4007043A4 /* Project object */;
+}
