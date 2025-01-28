@@ -40,3 +40,5 @@ The resulting `SampleKeyProvider2025.doccarchive`, `KeySharingExtension.doccarch
 ### Building
 
 Prior to attempting to build the project, replace the each project's bundle identifier, App Group, and Keychain Group. Make sure to update the `NSExtensionFileProviderDocumentGroup` in the Info.plist in the `KeySharingExtension` project otherwise the extension will not be presented to consuming applications as an option.
+
+After making these changes, run `pod install` from a terminal prompt then open the resulting workspace to build the app.
